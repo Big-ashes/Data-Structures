@@ -3,6 +3,9 @@
 int main(void)
 {
     int * p; //p是一个指针变量名称，int*表示p只能存储int类型的地址
+    printf("%p\n",p);
+    printf("%p\n",*p);
+    printf("%p\n",&p);
     int i =10; //假设地址2000H
     int j;
 
