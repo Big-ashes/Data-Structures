@@ -24,7 +24,7 @@ void reverse_arr(struct Arr *pArr); // 倒置数组
 
 int main(void)
 {
-    struct Arr arr; //这个时候已经分配了内存，但是并没有指向一个有效数组
+
     int val;
 
     init_arr(&arr, 6);
